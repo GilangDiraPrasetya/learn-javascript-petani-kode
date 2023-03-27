@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Percabangan If/Else/If</title>
+  </head>
+  <body>
+    <script>
+      // var nilai = prompt('Inputkan nilai akhir:');
+      // var grade = '';
+
+      // if (nilai >= 90) {
+      //   grade = 'A';
+      // } else if (nilai >= 80) {
+      //   grade = 'B+';
+      // } else if (nilai >= 70) {
+      //   grade = 'B';
+      // } else if (nilai >= 60) {
+      //   grade = 'C+';
+      // } else if (nilai >= 50) {
+      //   grade = 'C';
+      // } else if (nilai >= 40) {
+      //   grade = 'D';
+      // } else if (nilai >= 30) {
+      //   grade = 'E';
+      // } else {
+      //   grade = 'F';
+      // }
+      // document.write(`<p>Grade anda: ${grade}</p>`);
+      var total = prompt('Masukkan total belanja');
+      var diskon = '';
+
+      if (total >= 500000) {
+        document.write('Kamu Mendapat diskon 80%');
+      } else if (total >= 300000 && total <= 400000) {
+        document.write('Kamu Mendapat diskon 50%');
+      } else if (total >= 200000) {
+        document.write('Kamu Mendapat diskon 30%');
+      } else if (total >= 100000) {
+        document.write('Kamu Mendapat diskon 10%');
+      } else {
+      }
+      document.write('<p>Terima Kasih</p>');
+    </script>
+  </body>
+</html>
